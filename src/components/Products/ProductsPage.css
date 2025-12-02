@@ -1,0 +1,6 @@
+.products_page {
+  display: grid;
+  /* 왼쪽 카테고리 1 오른쪽 상품목록 4 비율 */
+  grid-template-columns: 1fr 4fr;
+  padding: 20px;
+}

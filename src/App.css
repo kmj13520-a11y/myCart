@@ -1,0 +1,5 @@
+.app {
+  display: grid;
+  /* grid로 위에 80px 아래에 auto로 나눔 */
+  grid-template-rows: 80px auto;
+}

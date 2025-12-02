@@ -1,0 +1,30 @@
+.products_list_section {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.products_list_header {
+  justify-content: space-between;
+}
+
+.products_list_header h2 {
+  font-size: 26px;
+}
+
+.products_sorting {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  height: 35px;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  /* 제품카드들은 같은 공백만큼 가짐 화면사이즈를 넘어서면 아래로 내려감 */
+  justify-content: space-evenly;
+}
