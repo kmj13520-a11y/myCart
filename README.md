@@ -1,12 +1,26 @@
-# React + Vite
+# 🌿 myCart — 친환경 감성 쇼핑 카트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+자연을 담은 미니멀 쇼핑 경험, **myCart**  
+React로 제작한 온라인 쇼핑 카트 웹앱으로, 를 적용해 부드럽고 편안한 쇼핑 UI를 구현했습니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ 주요 기능 (Features)
 
-## Expanding the ESLint configuration
+### 🛒 쇼핑 카트 기능
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 상품 목록 → 상품 상세 → 장바구니까지 자연스러운 흐름
+- 구매 수량 증가/감소, 총 금액 자동 계산
+- 개별 상품 삭제 기능
+- React 상태 관리 기반의 즉각적인 UI 반응
+
+### 📱 반응형 레이아웃
+
+- 모바일, 태블릿, 데스크톱 화면 대응
+- 화면 크기에 따라 상품 카드/레이아웃 유연하게 재배치
+
+---
+
+이 프로젝트는 개인 학습 및 포트폴리오용으로 제작되었습니다.
+자유롭게 참고 및 변형 가능하며, 배포 시 출처를 남겨주시면 감사드립니다. 🙌
+https://mycart-mj.netlify.app/
